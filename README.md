@@ -9,9 +9,9 @@ specified topic (notification-client).
 
 To use this application, you need to configure the authentication properties in the application.properties file:
 
-- auth.server.uri=http://localhost:8081
-- client-id='your-client-id'
-- client-secret='your-client-secret'
+- auth.server.uri=<authorization-server-ui>
+- client-id=<your-client-id>
+- client-secret=<your-client-secret>
 
 ## Prerequisites
 
