@@ -16,9 +16,9 @@ To use this application, you need to configure the authentication properties in 
 ## Prerequisites
 
 - Spring Authorization Server: Set up and running. You can find the implementation
-  here -> [Spring Authorization Server](https://github.com/bogdanMierloiu/Spring-Authorization-Server-Implementation).
+  here -> [Spring Authorization Server](https://github.com/bogdanMierloiu/Spring-Authorization-Server-Implementation)
 - Node.js ChatApp Interface: You can use my personal project as an interface. Find it
-  here -> [Chat App Node.js](https://github.com/bogdanMierloiu/ChatApp-with-Node.js).
+  here -> [Chat App Node.js](https://github.com/bogdanMierloiu/ChatApp-with-Node.js)
 
 ## Features
 
