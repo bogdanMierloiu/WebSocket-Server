@@ -9,9 +9,9 @@ specified topic (notification-client).
 
 To use this application, you need to configure the authentication properties in the application.properties file:
 
-- auth.server.uri=authorization-server-ui
-- client-id=your-client-id
-- client-secret=your-client-secret
+- auth.server.uri=*authorization-server-uri*
+- client-id=*your-client-id*
+- client-secret=*your-client-secret*
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ connections established through WebSocket protocols. In this application, securi
 enhance the safety of WebSocket communications.
 
 - Authentication and Authorization
-Authentication and authorization are enforced through the use of interceptors in the 'configureClientInboundChannel'
+Authentication and authorization are enforced through the use of interceptors in the *configureClientInboundChannel()*
 method. This allows for the validation of tokens and verification of client identities before allowing them to establish
 a connection or subscribe to topics.
 
