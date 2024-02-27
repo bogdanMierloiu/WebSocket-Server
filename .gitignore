@@ -1,14 +1,40 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
+*.iml
 
-# BlueJ files
-*.ctxt
+# IntelliJ IDEA
+.idea/
+.target/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+build/
+
+# Spring Boot
+spring-boot-starter-*.jar
 
 # Package Files #
 *.jar
