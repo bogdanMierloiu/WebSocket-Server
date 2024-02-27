@@ -14,7 +14,6 @@ import java.security.Principal;
 @RequiredArgsConstructor
 public class ChatController {
 
-
     @MessageMapping("/chat")
     @SendTo("/topic/notification-client/messages")
     public Message receiveSendMessage(Message message, SimpMessageHeaderAccessor headerAccessor) {
